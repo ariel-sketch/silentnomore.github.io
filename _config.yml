@@ -1,8 +1,37 @@
+# 网站基本信息
 title: "Silent No More"
 description: "家庭暴力救助与教育平台"
 url: "https://silentnomore.github.io"
 
-remote_theme: jekyll/minimal
+# 使用 Minimal Mistakes 主题
+remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
 
+# 主页设置
+theme: minimal-mistakes-jekyll
+
+# 页面和导航
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author: "Silent No More"
+
+# SEO 设置
+seo:
+  type: "website"
+  twitter:
+    username: "silentnomore"
+  facebook:
+    publisher: "silentnomore"
+
+# Markdown 配置
+markdown: kramdown
+kramdown:
+  input: GFM
