@@ -1,0 +1,8 @@
+title: "Silent No More"
+description: "家庭暴力救助与教育平台"
+url: "https://silentnomore.github.io"
+
+remote_theme: patdryburgh/hitchens
+plugins:
+  - jekyll-remote-theme
+
